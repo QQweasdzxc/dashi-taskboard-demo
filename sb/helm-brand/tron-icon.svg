@@ -36,10 +36,10 @@
     </g>
     <!-- center inverted rounded triangle, layered hollow: orange trace / yellow / blue / dark core -->
     <g stroke-linejoin="round">
-      <path d="M84 92 H156 L120 158 Z" stroke="#ff9a3c" stroke-width="15" opacity=".95"/>
-      <path d="M84 92 H156 L120 158 Z" stroke="#ffd76a" stroke-width="11" opacity=".95"/>
-      <path d="M84 92 H156 L120 158 Z" stroke="#3fdcf7" stroke-width="6.5"/>
-      <path d="M84 92 H156 L120 158 Z" stroke="#071019" stroke-width="2.6"/>
+      <path d="M94 92 H146 Q156 92 151 101 L125 149 Q120 158 115 149 L89 101 Q84 92 94 92 Z" stroke="#ff9a3c" stroke-width="15" opacity=".95"/>
+      <path d="M94 92 H146 Q156 92 151 101 L125 149 Q120 158 115 149 L89 101 Q84 92 94 92 Z" stroke="#ffd76a" stroke-width="11" opacity=".95"/>
+      <path d="M94 92 H146 Q156 92 151 101 L125 149 Q120 158 115 149 L89 101 Q84 92 94 92 Z" stroke="#3fdcf7" stroke-width="6.5"/>
+      <path d="M94 92 H146 Q156 92 151 101 L125 149 Q120 158 115 149 L89 101 Q84 92 94 92 Z" stroke="#071019" stroke-width="2.6"/>
     </g>
     <!-- small dot below triangle tip -->
     <circle cx="120" cy="176" r="3.4" stroke="#3fdcf7" stroke-width="2.6"/>
