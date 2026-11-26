@@ -32,3 +32,7 @@ The owner-read RPCs and OAuth callback already exist in the owner's separate Sup
 ## TRQN HELM update, 2026-11-26
 
 The owner chose TRQN HELM｜舵台 as the integration name. The interface is now single-language Traditional Chinese (Taiwan), including zh-TW date formatting and Taiwan task/project/navigation terms. Task titles, descriptions, source project names, raw statuses and source labels are not translated. Source label display remapping is disabled to preserve their original values. UI strings across the existing components were edited; their modified-file notices identify this change. No new language picker, URL migration or database permissions were added.
+
+## HELM working navigation and calendar, 2026-11-26
+
+Native responsive work navigation, TRQN navy/teal visual tokens, collapsible desktop sidebar and mobile drawer, and a seven-column read-only monthly work calendar were added. Existing task and Worklog records are read through the existing owner calendar API without new database functions or business writes. Original time, status, source and relation details are retained. Work editing, monthly report exports and Google sync controls remain unavailable. Login UI now shows verification progress and handles cancelled popups; the accepted OAuth callback stops close polling before token exchange. Credentials remain memory-only in this release; shared-session continuity is not claimed complete.
